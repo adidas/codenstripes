@@ -8,7 +8,7 @@
     <join-button v-else-if="timeToStart < 0 && timeToEnd > 0" />
     <div style="margin-bottom: 12rem; display: flex; justify-content: center; overflow: hidden" v-else>
       <center>
-        <img src="/finish-line.svg" class="finish-line" alt="Race is over">
+        <img src="finish-line.svg" class="finish-line" alt="Race is over">
       </center>
     </div>
     <tracks />

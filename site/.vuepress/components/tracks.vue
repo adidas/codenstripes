@@ -23,7 +23,7 @@
         <p>"Functionality, fit, weight, aesthetics" – Adi Dassler</p>
         <p>Because our prize is much more than a pair of sneakers, it's a piece of our history, our innovation, our pride, our team, and our hearts</p>
         <p>Yes, it's a secret product...CODE FOR IT!</p>
-        <img class="shoebox" src="/shoebox.svg" height="100px" alt="shoebox" />
+        <img class="shoebox" src="shoebox.svg" height="100px" alt="shoebox" />
       </div>
     </div>
     <div class="track track--bot">
@@ -65,7 +65,7 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url(/tracks-halved-center.svg);
+    background: url(../../tracks-halved-center.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: auto auto;
@@ -98,14 +98,14 @@ $trackWidth = 32rem
     margin-right: $trackTitleToImageAdjustment
 
   &.track--top
-    background-image: url(/story-1.png)
+    background-image: url(../../story-1.png)
 
   &.track--mid
-    background-image: url(/story-2.png)
+    background-image: url(../../story-2.png)
     background-position-x: right
 
   &.track--bot
-    background-image: url(/story-3.png)
+    background-image: url(../../story-3.png)
 
   .track-title
     writing-mode: vertical-rl

@@ -8,30 +8,30 @@
   "lang": "en-US",
   "icons": [
     {
-      "src": "/adidas-black-48x48.svg",
+      "src": "adidas-black-48x48.svg",
       "sizes": "48x48"
     },
     {
-      "src": "/adidas-black-72x72.svg",
+      "src": "adidas-black-72x72.svg",
       "sizes": "72x72"
     },
     {
-      "src": "/adidas-black-96x96.svg",
+      "src": "adidas-black-96x96.svg",
       "sizes": "96x96"
     },
     {
-      "src": "/adidas-black-128x128.svg",
+      "src": "adidas-black-128x128.svg",
       "sizes": "128x128"
     },
     {
-      "src": "/adidas-black-256x256.svg",
+      "src": "adidas-black-256x256.svg",
       "sizes": "256x256"
     },
     {
-      "src": "/adidas-black.svg"
+      "src": "adidas-black.svg"
     },
     {
-      "src": "/adidas-mask.svg",
+      "src": "adidas-mask.svg",
       "purpose": "maskable"
     }
   ]

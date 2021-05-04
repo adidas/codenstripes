@@ -3,12 +3,16 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
+const base = process.env.VUEPRESS_BASE || '/';
+
 module.exports = {
   title: 'adidas | code\'n\'stripes',
   description: 'Join adidas micro coding challenges and earn prizes!',
-  base: process.env.VUEPRESS_BASE || '/',
+  base,
   dest: './dist',
   head: [
+    // required for vuepress to correctly inject base tag
+    ['base', { href: '/' } ],
     ['link', { rel: 'icon', href: '/adidas-black.svg' }],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest', crossorigin: 'use-credentials' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
@@ -38,6 +42,12 @@ module.exports = {
 
   ],
   chainWebpack: (config) => {
+
+    config
+      .module
+      .rule('stylus').oneOf('normal').use('css-loader')
+      .tap((options) => ({ ...options, url: false }));
+
     config
       .plugin('env')
       .use(EnvironmentPlugin, [[

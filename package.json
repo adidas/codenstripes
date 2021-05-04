@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vuepress dev site",
+    "build": "vuepress build site",
+    "build:gh-pages": "cross-env VUEPRESS_BASE=/codenstripes/ npm run build"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "1.8.2",
+    "cross-env": "7.0.3",
+    "dotenv": "8.2.0",
+    "vuepress": "1.8.2"
+  }
+}

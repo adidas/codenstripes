@@ -1,0 +1,76 @@
+@import './_fonts.styl'
+
+html, body
+  background: #000
+  font-family: 'yarn-base', Tahoma, Geneva, sans-serif
+  font-weight: 400
+  font-style: normal
+
+h1
+  font-family: 'yarn-heading', 'Arial Black', Gadget, sans-serif
+  font-weight: 400
+  font-style: normal
+  text-transform: uppercase
+  margin: 0
+  margin-top: 2rem
+  text-align: center
+
+h2
+  text-transform: uppercase
+  font-size: 1.25rem
+  border: none
+  margin-top: 4rem !important
+  padding-top: 0 !important
+
+.page-title
+  font-family: sans-serif
+  font-weight: 700
+  margin-bottom: 0
+  text-align: center
+  margin-top: 2rem !important
+
+.page-subtitle
+  text-transform: uppercase
+  font-weight: 100
+  margin-top: 0 !important
+  margin-bottom: 4rem
+  text-align: center
+  border: none
+
+@media (max-width: 419px) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.theme-container,
+.navbar,
+.navbar .links,
+.sidebar,
+a
+  background-color: $backgroundColor !important
+
+a.header-anchor
+  float: none
+
+.site-name
+  display: none !important
+
+footer
+  margin-top: 5rem
+  text-align: center
+
+.nav-link,
+.sidebar
+  text-transform: uppercase
+
+.nav-link:hover
+  border-bottom: none !important
+
+.section
+  padding-bottom: 0 2rem 2rem
+

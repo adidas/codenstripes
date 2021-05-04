@@ -1,0 +1,15 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - env:
+        GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+      run: gh api repos/adidas/codenstripes-jobs/dispatches --raw-field event_type=build

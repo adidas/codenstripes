@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 195 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-3085.55,-552)">
+        <g transform="matrix(1,0,0,1.30556,2223,0)">
+            <g id="Button" transform="matrix(1,0,0,0.990544,0,0.765957)">
+                <g transform="matrix(0.655793,0,0,0.507105,-1127.39,173.533)">
+                    <path d="M3049.65,610L3049.65,574.989L3183,498L3316.35,574.989L3316.35,610L3275,610L3275,627L3316.35,627L3316.35,644L3275,644L3275,661L3316.35,661L3316.35,678L3275,678L3275,695L3316.35,695L3316.35,728.966L3183,805.955L3049.65,728.966L3049.65,695L3090,695L3090,678L3049.65,678L3049.65,661L3090,661L3090,644L3049.65,644L3049.65,627L3090,627L3090,610L3049.65,610Z" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" style="font-family:'yarn-base', Tahoma, Geneva, sans-serif;font-weight:700;font-size:25px;">
+      <tspan x="50%" dy="-2rem">JOIN</tspan>
+      <tspan x="50%" dy="2rem">THE</tspan>
+      <tspan x="50%" dy="2rem">RACE</tspan>
+    </text>
+</svg>

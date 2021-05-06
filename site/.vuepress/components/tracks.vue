@@ -22,7 +22,7 @@
         <p>We are also giving you a prize based on what makes an outstanding foundation for every adidas product:</p>
         <p>"Functionality, fit, weight, aesthetics" – Adi Dassler</p>
         <p>Because our prize is much more than a pair of sneakers, it's a piece of our history, our innovation, our pride, our team, and our hearts</p>
-        <p>Yes, it's a secret product...CODE FOR IT!</p>
+        <p>Yes, it's a secret #hype product...CODE FOR IT!</p>
         <img class="shoebox" src="shoebox.svg" height="100px" alt="shoebox" />
       </div>
     </div>

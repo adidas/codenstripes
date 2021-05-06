@@ -126,8 +126,11 @@ $trackWidth = 32rem
     > p:first-child
       margin-top: 0
 
+    p
+      line-height: 1.4
+
     a
-      background none !important
+      background: none !important
 
 
 .timer

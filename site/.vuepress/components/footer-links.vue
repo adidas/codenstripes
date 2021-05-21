@@ -3,7 +3,7 @@
     <div class="footer__content">
       <div class="footer__col">
         <p><a href="https://adidas.com/" target="_blank" rel="noopener noreferrer">adidas.com<OutboundLink /></a></p>
-        <p><a href="https://careers.adidas-group.com/jobs?brand=&team=Digital%3BInformation+Technology&locale=en" target="_blank" rel="noopener noreferrer">adidas Careers<OutboundLink /></a></p>
+        <p><a href="https://careers.adidas-group.com/teams/growers/information-technology?locale=en&utm_source=challenge&utm_medium=website&utm_campaign=codenstripes" target="_blank" rel="noopener noreferrer">adidas Careers<OutboundLink /></a></p>
         <p><a href="https://github.com/adidas" target="_blank" rel="noopener noreferrer">adidas GitHub<OutboundLink /></a></p>
       </div>
       <div class="footer__col footer__col--right">

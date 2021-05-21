@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 298 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-811.5,-595)">
+        <g transform="matrix(1,0,0,1.30556,-3.12639e-13,0)">
+            <g id="Button" transform="matrix(1,0,0,0.990544,-5.5,0.765957)">
+                <g transform="matrix(1.78313,0,0,1.80016,-755.723,-402.454)">
+                    <g transform="matrix(1,0,0,0.765957,3.12639e-13,0)">
+                        <rect x="882" y="625" width="164" height="41" style="fill:white;"/>
+                    </g>
+                    <g transform="matrix(1,0,0,0.765957,2,1.53191)">
+                        <rect x="882" y="625" width="164" height="41" style="fill:none;stroke:white;stroke-width:1.12px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(1,5.81563e-33,0,0.77327,-1670,-129.909)">
+                    <text x="2545.71px" y="807.4px" style="font-family:'AdihausDIN-Bold', 'AdihausDIN', sans-serif;font-weight:700;font-size:25px;">JOIN THE RA<tspan x="2690.16px 2705.66px " y="807.4px 807.4px ">CE</tspan></text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -8,7 +8,7 @@
     <join-button v-else-if="timeToStart < 0 && timeToEnd > 0" />
     <div style="margin-bottom: 12rem; display: flex; justify-content: center; overflow: hidden" v-else>
       <center>
-        <img src="finish-line.svg" class="finish-line" alt="Race is over">
+        <img src="finish.svg" alt="Race is over" height="150px" width="auto">
       </center>
     </div>
     <tracks />
@@ -72,10 +72,6 @@ export default {
 
   .join
     padding-bottom: 10rem;
-
-  .finish-line
-    max-width: unset !important;
-    width: $homePageWidth;
 
   .footer
     margin-top: 10rem;

@@ -7,9 +7,14 @@
     </div>
     <join-button v-else-if="timeToStart < 0 && timeToEnd > 0" />
     <div style="margin-bottom: 12rem; display: flex; justify-content: center; overflow: hidden" v-else>
-      <center>
-        <img src="finish.svg" alt="Race is over" height="150px" width="auto">
-      </center>
+      <router-link to="leaderboard" style="text-decoration: none">
+        <center>
+          <img src="finish.svg" alt="Race is over" height="150px" width="auto">
+          <h4 style="text-transform: uppercase">
+            Check the Leaderboard
+          </h4>
+        </center>
+      </router-link>
     </div>
     <tracks />
   </div>

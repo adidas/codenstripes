@@ -11,8 +11,6 @@ module.exports = {
   base,
   dest: './dist',
   head: [
-    // required for vuepress to correctly inject base tag
-    ['base', { href: '/' } ],
     ['link', { rel: 'icon', href: '/adidas-black.svg' }],
     ['link', { rel: 'manifest', href: '/manifest.webmanifest', crossorigin: 'use-credentials' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }],
@@ -26,6 +24,7 @@ module.exports = {
     logo: '/adidas.svg',
     search: false,
     nav: [
+      { text: 'Leaderboard', link: '/leaderboard' },
       { text: 'Challenge T&C', link: '/terms-and-conditions' },
       { text: 'Challenge Privacy Notice', link: '/privacy-notice' },
       { text: 'Frequently Asked Questions', link: '/faq' }
